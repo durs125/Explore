@@ -1,7 +1,6 @@
-mat <- matrix( c(1,2,3,4),2,2)## Put comments here that give an overall description of what your
-## functions do
+## This program returns a list object with functions associated with it. 
+mat <- matrix( c(1,2,3,4),2,2)
 
-## This function returns a list object with functions associated with it. 
 ##These functions allow the inverse to be stored
 
 makeCacheMatrix <- function(x= matrix()) {
